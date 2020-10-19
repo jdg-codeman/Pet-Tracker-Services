@@ -72,3 +72,9 @@ To use this project you will need nodejs and `npm` install on the computer as we
 To start project:
 
 * Go to root project directory and run `docker-compose up --build`
+
+* Test urls: 
+
+    * http://localhost/registration/api/Registration/1234
+    * http://localhost/authentication/api/Authentication/john
+    * http://localhost/tracking/api/TrackingDataConsumer/1234
