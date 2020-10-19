@@ -63,3 +63,12 @@ All tracking data available at this stage will be canned data previously collect
 
 Production ready server that has the Tracking Data Producer Module working full time.
 All other module working and deployed to this environment.
+
+
+## HOW TO RUN
+
+To use this project you will need nodejs and `npm` install on the computer as well as docker
+
+To start project:
+
+* Go to root project directory and run `docker-compose up --build`
