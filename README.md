@@ -1,11 +1,11 @@
 # Pet-Tracker-Services
 
-#Assumptions
+# Assumptions
 
 We are using a very high and scalable database to store this information, the data will be created, stored and available at any time. 
 We are assuming that they asked us to deploy this application in kubernetes for now.
 
-#Structure Graph
+# Structure Graph
 
 The structure will be set on 3 modules:
 
@@ -16,9 +16,9 @@ The structure will be set on 3 modules:
 
 ![Graph A](Graph_A.png)
 
-#Service
+# Service
 
-##Registration/Authentication API
+## Registration/Authentication API
 
 The Registartion API is in charge of registering a user to the system
 
@@ -35,7 +35,7 @@ This module is use for querying data by the client.
 We can also use the module to create direct connection and send data as is being received directly to the client through stream service, sockets, etc.
 
 
-#Work Plan
+# Work Plan
 
 We are assuming that all technical requirements have already been gathered and established.
 
@@ -50,14 +50,14 @@ Every module will contain a suite of automated unit test.
 
 CI/CD pipeline will need to be created for automation, testing and deployment of code into development server and production.
 
-#Environments
+# Environments
 
-##Development Server
+## Development Server
 
 Server to be used for testing while front-end client will in development phase.
 All tracking data available at this stage will be canned data previously collected.
 
-##Production Server
+## Production Server
 
 Production ready server that has the Tracking Data Producer Module working full time.
 All other module working and deployed to this environment.
