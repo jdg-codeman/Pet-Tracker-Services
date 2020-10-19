@@ -17,7 +17,7 @@ services:
             dockerfile: Dockerfile.dev
         volumes:
             - /app/node_modules
-            - .:/app
+            - ./registration:/app
         environment:
             - TO_EMAIL=youremail@mail.com
             - NODE_ENV1=production
@@ -28,7 +28,7 @@ services:
             dockerfile: Dockerfile.dev
         volumes:
             - /app/node_modules
-            - .:/app
+            - ./tracking_data_consumer:/app
         environment:
             - TO_EMAIL=youremail@mail.com
             - NODE_ENV1=production

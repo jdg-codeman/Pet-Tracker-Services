@@ -7,7 +7,7 @@ module.exports.get = function(context){
     //Verify user
     //if NOT premium then reset the query to last 24 hours
 
-    return getTrackList(trackerId, startDate, endDate);
+    return module.exports.getTrackList(trackerId, startDate, endDate);
 
 };
 
