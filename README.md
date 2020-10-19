@@ -5,6 +5,8 @@
 We are using a very high and scalable database to store this information, the data will be created, stored and available at any time. 
 We are assuming that they asked us to deploy this application in kubernetes for now.
 
+For development purposes we will be using docker-compose.
+
 # Structure Graph
 
 The structure will be set on 3 modules:
