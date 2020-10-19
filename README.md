@@ -3,7 +3,7 @@
 # Assumptions
 
 We are using a very high and scalable database to store this information, the data will be created, stored and available at any time. 
-We are assuming that they asked us to deploy this application in kubernetes for now.
+We are assuming that we are asked to deploy this application in kubernetes server so all modules will be deployed in docker containers.
 
 For development purposes we will be using docker-compose.
 
@@ -18,7 +18,7 @@ The structure will be set on 3 modules:
 
 ![Graph A](Graph_A.png)
 
-# Service
+# API Services
 
 ## Registration/Authentication API
 
